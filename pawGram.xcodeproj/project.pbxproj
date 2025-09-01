@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D7E1F782E568EE80042DC19 /* pawGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pawGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7E1F782E568EE80042DC19 /* patiTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patiTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7E1F8E2E568EEC0042DC19 /* pawGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7E1F982E568EEC0042DC19 /* pawGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1D7E1FA02E568EEC0042DC19 /* Exceptions for "pawGram" folder in "pawGram" target */ = {
+		1D7E1FA02E568EEC0042DC19 /* Exceptions for "pawGram" folder in "patiTalk" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 1D7E1F772E568EE80042DC19 /* pawGram */;
+			target = 1D7E1F772E568EE80042DC19 /* patiTalk */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		1D7E1F7A2E568EE80042DC19 /* pawGram */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				1D7E1FA02E568EEC0042DC19 /* Exceptions for "pawGram" folder in "pawGram" target */,
+				1D7E1FA02E568EEC0042DC19 /* Exceptions for "pawGram" folder in "patiTalk" target */,
 			);
 			path = pawGram;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 		1D7E1F792E568EE80042DC19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D7E1F782E568EE80042DC19 /* pawGram.app */,
+				1D7E1F782E568EE80042DC19 /* patiTalk.app */,
 				1D7E1F8E2E568EEC0042DC19 /* pawGramTests.xctest */,
 				1D7E1F982E568EEC0042DC19 /* pawGramUITests.xctest */,
 			);
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D7E1F772E568EE80042DC19 /* pawGram */ = {
+		1D7E1F772E568EE80042DC19 /* patiTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D7E1FA12E568EEC0042DC19 /* Build configuration list for PBXNativeTarget "pawGram" */;
+			buildConfigurationList = 1D7E1FA12E568EEC0042DC19 /* Build configuration list for PBXNativeTarget "patiTalk" */;
 			buildPhases = (
 				1D7E1F742E568EE80042DC19 /* Sources */,
 				1D7E1F752E568EE80042DC19 /* Frameworks */,
@@ -123,11 +123,11 @@
 			fileSystemSynchronizedGroups = (
 				1D7E1F7A2E568EE80042DC19 /* pawGram */,
 			);
-			name = pawGram;
+			name = patiTalk;
 			packageProductDependencies = (
 			);
 			productName = pawGram;
-			productReference = 1D7E1F782E568EE80042DC19 /* pawGram.app */;
+			productReference = 1D7E1F782E568EE80042DC19 /* patiTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1D7E1F8D2E568EEC0042DC19 /* pawGramTests */ = {
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D7E1F772E568EE80042DC19 /* pawGram */,
+				1D7E1F772E568EE80042DC19 /* patiTalk */,
 				1D7E1F8D2E568EEC0042DC19 /* pawGramTests */,
 				1D7E1F972E568EEC0042DC19 /* pawGramUITests */,
 			);
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		1D7E1F902E568EEC0042DC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D7E1F772E568EE80042DC19 /* pawGram */;
+			target = 1D7E1F772E568EE80042DC19 /* patiTalk */;
 			targetProxy = 1D7E1F8F2E568EEC0042DC19 /* PBXContainerItemProxy */;
 		};
 		1D7E1F9A2E568EEC0042DC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D7E1F772E568EE80042DC19 /* pawGram */;
+			target = 1D7E1F772E568EE80042DC19 /* patiTalk */;
 			targetProxy = 1D7E1F992E568EEC0042DC19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D7E1FA12E568EEC0042DC19 /* Build configuration list for PBXNativeTarget "pawGram" */ = {
+		1D7E1FA12E568EEC0042DC19 /* Build configuration list for PBXNativeTarget "patiTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D7E1FA22E568EEC0042DC19 /* Debug */,
