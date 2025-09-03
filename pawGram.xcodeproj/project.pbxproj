@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A4EF63A0DCF76FDFA7235993 /* Pods_patiTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBFF84727DFD4D8D81DCAF /* Pods_patiTalk.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1D7E1F8F2E568EEC0042DC19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,9 @@
 		1D7E1F782E568EE80042DC19 /* patiTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patiTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7E1F8E2E568EEC0042DC19 /* pawGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7E1F982E568EEC0042DC19 /* pawGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDBFF84727DFD4D8D81DCAF /* Pods_patiTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_patiTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDF8E86D5E8E049CD1BA178 /* Pods-patiTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patiTalk.release.xcconfig"; path = "Target Support Files/Pods-patiTalk/Pods-patiTalk.release.xcconfig"; sourceTree = "<group>"; };
+		C55F7C04DCB4F082513692E5 /* Pods-patiTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patiTalk.debug.xcconfig"; path = "Target Support Files/Pods-patiTalk/Pods-patiTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +57,15 @@
 		};
 		1D7E1F912E568EEC0042DC19 /* pawGramTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = pawGramTests;
 			sourceTree = "<group>";
 		};
 		1D7E1F9B2E568EEC0042DC19 /* pawGramUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = pawGramUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EF63A0DCF76FDFA7235993 /* Pods_patiTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCE3DB74C21F531C340EAD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BDBFF84727DFD4D8D81DCAF /* Pods_patiTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D7E1F6F2E568EE80042DC19 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +112,8 @@
 				1D7E1F912E568EEC0042DC19 /* pawGramTests */,
 				1D7E1F9B2E568EEC0042DC19 /* pawGramUITests */,
 				1D7E1F792E568EE80042DC19 /* Products */,
+				B02877504BFC1E555AF0B56F /* Pods */,
+				0CCE3DB74C21F531C340EAD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +127,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B02877504BFC1E555AF0B56F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C55F7C04DCB4F082513692E5 /* Pods-patiTalk.debug.xcconfig */,
+				5EDF8E86D5E8E049CD1BA178 /* Pods-patiTalk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D7E1FA12E568EEC0042DC19 /* Build configuration list for PBXNativeTarget "patiTalk" */;
 			buildPhases = (
+				00EABE2037B0223E31C93D5B /* [CP] Check Pods Manifest.lock */,
 				1D7E1F742E568EE80042DC19 /* Sources */,
 				1D7E1F752E568EE80042DC19 /* Frameworks */,
 				1D7E1F762E568EE80042DC19 /* Resources */,
@@ -124,8 +157,6 @@
 				1D7E1F7A2E568EE80042DC19 /* pawGram */,
 			);
 			name = patiTalk;
-			packageProductDependencies = (
-			);
 			productName = pawGram;
 			productReference = 1D7E1F782E568EE80042DC19 /* patiTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -147,8 +178,6 @@
 				1D7E1F912E568EEC0042DC19 /* pawGramTests */,
 			);
 			name = pawGramTests;
-			packageProductDependencies = (
-			);
 			productName = pawGramTests;
 			productReference = 1D7E1F8E2E568EEC0042DC19 /* pawGramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -170,8 +199,6 @@
 				1D7E1F9B2E568EEC0042DC19 /* pawGramUITests */,
 			);
 			name = pawGramUITests;
-			packageProductDependencies = (
-			);
 			productName = pawGramUITests;
 			productReference = 1D7E1F982E568EEC0042DC19 /* pawGramUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +271,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00EABE2037B0223E31C93D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-patiTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D7E1F742E568EE80042DC19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +336,7 @@
 /* Begin XCBuildConfiguration section */
 		1D7E1FA22E568EEC0042DC19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F7C04DCB4F082513692E5 /* Pods-patiTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +364,7 @@
 		};
 		1D7E1FA32E568EEC0042DC19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDF8E86D5E8E049CD1BA178 /* Pods-patiTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
