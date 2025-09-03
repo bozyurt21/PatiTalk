@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="vC6-Ze-Adl">
             <objects>
-                <viewController id="alC-U2-oyh" sceneMemberID="viewController">
+                <viewController id="alC-U2-oyh" customClass="ViewController" customModule="patiTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7gY-xc-6Nv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                                                             <color key="baseBackgroundColor" red="0.89411764709999997" green="0.0" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="show" id="Fr1-w0-Ff5"/>
+                                                            <segue destination="BYZ-38-t0r" kind="show" identifier="toLogin" id="Fr1-w0-Ff5"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqp-To-WmK">
@@ -67,7 +67,7 @@
                                                             <color key="baseBackgroundColor" systemColor="tableBackgroundColor"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <segue destination="ShY-0m-vzx" kind="show" id="8GN-vc-tTU"/>
+                                                            <segue destination="ShY-0m-vzx" kind="show" identifier="toRegister" id="8GN-vc-tTU"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -88,15 +88,19 @@
                         <color key="backgroundColor" name="Background"/>
                     </view>
                     <navigationItem key="navigationItem" id="of1-6C-BCa"/>
+                    <connections>
+                        <outlet property="loginButton" destination="edU-Bh-AB4" id="an5-4v-d4B"/>
+                        <outlet property="registerButton" destination="Aqp-To-WmK" id="a4i-pH-oMJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qHt-gk-8Jb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1220.6106870229007" y="-235.21126760563382"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="patiTalk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="patiTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +159,7 @@
                                                     <color key="baseBackgroundColor" red="0.89411764709999997" green="0.0" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="S15-pq-UfX" kind="show" id="0T3-vf-PC4"/>
+                                                    <segue destination="S15-pq-UfX" kind="show" identifier="LoginToMain" id="0T3-vf-PC4"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -177,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="182.44274809160305" y="-564.08450704225356"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Page View Controller-->
         <scene sceneID="zoZ-wg-yBd">
             <objects>
-                <viewController id="S15-pq-UfX" sceneMemberID="viewController">
+                <viewController id="S15-pq-UfX" customClass="HomePageViewController" customModule="patiTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9xJ-NB-Blt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="1466.4122137404579" y="-201.40845070422537"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="a7Y-II-vor">
             <objects>
-                <viewController id="ShY-0m-vzx" sceneMemberID="viewController">
+                <viewController id="ShY-0m-vzx" customClass="RegisterViewController" customModule="patiTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tcV-rU-Qjv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -284,7 +288,7 @@
                                                     <color key="baseBackgroundColor" red="0.89411764709999997" green="0.0" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="S15-pq-UfX" kind="show" id="NpA-gg-Zb1"/>
+                                                    <segue destination="S15-pq-UfX" kind="show" identifier="RegisterToMain" id="NpA-gg-Zb1"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -327,7 +331,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0T3-vf-PC4"/>
+        <segue reference="NpA-gg-Zb1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="Background">

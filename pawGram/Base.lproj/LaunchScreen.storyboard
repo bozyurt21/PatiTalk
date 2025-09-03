@@ -16,23 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="UrT-CI-PvZ">
-                                <rect key="frame" x="30" y="318" width="333" height="266"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UrT-CI-PvZ">
+                                <rect key="frame" x="30" y="381.66666666666669" width="333" height="88.666666666666686"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="8Sb-E3-SWO">
-                                        <rect key="frame" x="83.333333333333329" y="0.0" width="166.66666666666669" height="124"/>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-Nt-N3h">
-                                        <rect key="frame" x="48.666666666666671" y="142" width="235.66666666666663" height="124"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-Nt-N3h">
+                                        <rect key="frame" x="21.666666666666657" y="0.0" width="289.66666666666674" height="88.666666666666671"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PatiTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suG-Dx-tPZ">
-                                                <rect key="frame" x="33" y="0.0" width="169.66666666666666" height="95.333333333333329"/>
-                                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="52"/>
-                                                <color key="textColor" name="Icon"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="New Universe For Cats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-Ic-1hf">
-                                                <rect key="frame" x="0.0" y="95.333333333333371" width="235.66666666666666" height="28.666666666666671"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nsd-bd-9Vi">
+                                                <rect key="frame" x="0.0" y="0.0" width="289.66666666666669" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="8Sb-E3-SWO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="Q5s-0G-u8Y"/>
+                                                            <constraint firstAttribute="height" constant="50" id="abr-Uj-9JS"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="PatiTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suG-Dx-tPZ">
+                                                        <rect key="frame" x="60.000000000000014" y="0.0" width="169.66666666666669" height="50"/>
+                                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="52"/>
+                                                        <color key="textColor" name="Icon"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="FSI-7Q-njf">
+                                                        <rect key="frame" x="239.66666666666663" y="0.0" width="50" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="16C-Qc-BSn"/>
+                                                            <constraint firstAttribute="height" constant="50" id="Y8y-ut-SBm"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Universe For Cats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-Ic-1hf">
+                                                <rect key="frame" x="27.000000000000014" y="59.999999999999993" width="235.66666666666669" height="28.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -45,12 +61,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Background"/>
                         <constraints>
-                            <constraint firstItem="UrT-CI-PvZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="0Xm-M4-6ym"/>
-                            <constraint firstItem="UrT-CI-PvZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DE8-rT-jQN"/>
+                            <constraint firstItem="UrT-CI-PvZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3NC-7l-Maf"/>
+                            <constraint firstItem="UrT-CI-PvZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UvK-9c-1F8"/>
                             <constraint firstItem="UrT-CI-PvZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XwV-UH-bZb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UrT-CI-PvZ" secondAttribute="bottom" constant="200" id="drK-04-Glc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UrT-CI-PvZ" secondAttribute="trailing" constant="30" id="nCd-b8-F09"/>
-                            <constraint firstItem="UrT-CI-PvZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rnh-bN-zNJ"/>
                         </constraints>
                     </view>
                 </viewController>
